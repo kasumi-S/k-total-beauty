@@ -23,6 +23,7 @@ body {
 a {
   color: #333;
   text-decoration: none;
+  display : block;  
 }
 
 img {
@@ -81,6 +82,8 @@ img {
   line-height: 3.3vw;
   text-align: center;
 }
+
+
 
 .pc_nav_wrap{
   display : flex;
@@ -167,6 +170,11 @@ img {
   font-size : 4.2vw;
   line-height : 6.4vw;
   margin-bottom : 1.06vw;
+}
+
+
+.sp_nav_ul li a{
+  display : block;
 }
 
 
@@ -651,6 +659,7 @@ img {
   }
   .inview_sec img{
     margin-bottom :5.33vw;
+    width : 100%
   }
   .inview_p{
     font-size : 3.21vw;
@@ -1006,13 +1015,12 @@ img {
 }
 .sp_question{
   display : flex;
+  align-items : baseline;
 }
 .q_p{
   width : 69.8vw;
 }
-.flex{
-  align-items: baseline;
-}
+
 .answer {
   width: calc(100% - 8vw);
   font-size: 4.26vw;
