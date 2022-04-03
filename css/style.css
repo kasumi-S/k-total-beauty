@@ -1015,10 +1015,12 @@ img {
 }
 .sp_question{
   display : flex;
-  align-items : baseline;
+  align-items : center;
 }
 .q_p{
   width : 69.8vw;
+  font-size : 4.26vw;
+
 }
 
 .answer {
