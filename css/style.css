@@ -972,7 +972,7 @@ img {
 }
 .pc_question{
   display : flex;
-  align-items : center;
+  align-items : baseline;
 }
 .answer {
   display : none;
