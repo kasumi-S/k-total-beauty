@@ -839,7 +839,8 @@ img {
 
 @media(max-width : 767px){
   .ad {
-    height : 111vw;
+    /*height : 111vw;*/
+    HEIGHT : 114.13vw;
     margin-top :16vw;
 }
 .sp_br{
@@ -847,14 +848,17 @@ img {
 }
   .ad_heading{
     font-size : 9.06vw;
-    padding :13.3vw 4vw 16vw 4vw;
+    padding :13.6vw 4vw 16vw 4vw;
     margin :0;
     line-height : 11.2vw;
   }
 
 .ad_p{
-  font-size : 4.81vw;
-  line-height : 7.5vw;
+  font-size : 4.8vw;
+  line-height : 4.8vw;
+}
+.ad_p:first-child{
+  margin-bottom : 8vw;
 }
 .ad_wrap {
   margin: 0 auto;
@@ -869,13 +873,14 @@ img {
   line-height: 12.53vw;
   font-size: 5.28vw;
   color: #fff;
-  margin-bottom: 13.3vw;
-  margin-top : 18.67vw;
+  margin-bottom: 13.33vw;
+  margin-top : 18.66vw;
   -webkit-box-shadow: 0.8vw 0.8vw 0px 0px rgba(32, 32, 32, 0.31);
   box-shadow: 0.8vw 0.8vw 0px 0px rgba(32, 32, 32, 0.31);
 }
 .ad_space {
-  margin : 0;
+  margin-left :6.13vw;
+  margin-right : 0; 
 }
 .ad_space_left {
   margin-left : 6.13vw;
